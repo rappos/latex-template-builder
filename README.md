@@ -1,6 +1,6 @@
 # LaTeX Template Builder
 
-An opinionated modern web application that simplifies the creation of LaTeX templates through an intuitive form-based interface. Built with React and TypeScript, this tool helps you generate customized LaTeX templates based on your specific needs.
+An modern web application that simplifies the creation of LaTeX templates through an intuitive form-based interface. Built with React and TypeScript, this tool helps you generate customized LaTeX templates based on your specific needs.
 
 ## 🎯 Features
 
