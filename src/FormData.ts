@@ -4,33 +4,32 @@ export interface FormData {
 	paperSize: string;
 	marginSize: number;
 	documentClass: string;
+	fontFamily: string;
 	fontSize: string;
 
 	// Style & Layout
 	indentParagraph: boolean;
 	sectionNumbers: boolean;
-	headerStyle: string;
-	footerStyle: string;
-	lineSpacing: string;
-	pageNumbering: string;
+	compactPage: boolean;
 
 	// Metadata
 	author: string;
 	title: string;
 	date: string;
+	customDate: string;
 	abstract: string;
+	subject: string;
+	keywords: string;
 
 	// Features
 	useReferences: boolean;
+	useImages: boolean;
+	usePDF: boolean;
 	referenceStyle?: string;
 	useMath: boolean;
 	useCode: boolean;
-	useImages: boolean;
-	useTables: boolean;
-	useHyperlinks: boolean;
-	colorLinks: boolean;
+	codeTheme?: string;
 
 	// Advanced
 	customPackages: string;
-	documentOptions: string;
 }
