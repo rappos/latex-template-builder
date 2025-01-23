@@ -84,7 +84,7 @@ export const generateLatex = (data: FormData) => {
 		`\tpdflang={${data.language === "swedish" || data.language === "english,swedish" ? "sv" : "en"}},`,
 	);
 	lines.push(
-		"\tpdftitle={},",
+		`\tpdftitle={${data.title}},`,
 		`\tpdfsubject={${data.subject}},`,
 		`\tpdfauthor={${data.author}},`,
 		`\tpdfkeywords={${data.keywords}},`,
