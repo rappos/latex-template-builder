@@ -51,7 +51,7 @@ export default function App() {
 				</div>
 			</header>
 
-			<main className="flex-grow container mx-auto py-8 px-4">
+			<main className="grow container mx-auto py-8 px-4">
 				<div className="flex flex-wrap -mx-4">
 					<div className="w-full md:w-1/2 px-4 space-y-6">
 						{/* Document Setup Section */}
@@ -292,7 +292,7 @@ export default function App() {
 											btn.textContent = originalText;
 										}, 1500);
 									}}
-									className="flex-1 bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-700 transition-colors"
+									className="flex-1 bg-purple-600 text-white py-2 px-4 rounded-sm hover:bg-purple-700 transition-colors"
 								>
 									Copy to Clipboard
 								</button>
@@ -311,7 +311,7 @@ export default function App() {
 										document.body.removeChild(a);
 										URL.revokeObjectURL(url);
 									}}
-									className="flex-1 bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-700 transition-colors"
+									className="flex-1 bg-purple-600 text-white py-2 px-4 rounded-sm hover:bg-purple-700 transition-colors"
 								>
 									Download .tex
 								</button>

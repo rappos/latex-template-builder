@@ -26,7 +26,7 @@ export function TextfieldSmall({
 				type="text"
 				id={id}
 				{...register(id)}
-				className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline border-gray-300"
+				className="shadow-sm appearance-none border rounded-sm w-full py-2 px-3 text-gray-700 leading-tight focus:outline-hidden focus:shadow-outline border-gray-300"
 				placeholder={placeholder}
 			/>
 		</div>
